@@ -1,0 +1,138 @@
+body{
+   
+    margin: 0;
+    height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header{
+   
+    display: flex;
+   height: 10rem;
+margin: 0 auto;
+   max-width: fit-content;
+   padding:1.0625rem 1.5rem;
+   padding-bottom: 0;
+   padding-top: 0;
+ justify-content: center;
+ align-items: center;
+}
+.verification{
+    margin: 0 auto;
+    max-width: 40.1875rem;
+    height: 15rem;
+    position: relative;
+}
+.otp_container{
+    height: 4rem;
+    max-width: 40.1875rem;
+    display: flex;
+    justify-content: center;
+   align-items: top;
+}
+.verify_para{
+    font-size: 1.5rem;
+    position: absolute;
+    
+    margin: 0;
+    margin-top: 1rem;
+}
+
+.infocontainer{
+    display: flex;
+    position: relative;
+    height: 10rem;
+}
+.para1,.para2,.para3,.para4,.para5{
+    position: absolute;
+    top:3rem;
+    margin-left: 1rem;
+    color: #000;
+    
+}
+.para1{
+    top:3rem
+}
+.para2{
+    top:5rem;
+}
+.para3{
+    top: 9rem;
+}
+.para4{
+    top:11rem;
+    
+}
+.para5{
+    top: 13rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.support_link{
+text-decoration: none;
+}
+.blue_container{
+    margin: 0 auto;
+    max-width: 40.1875rem;
+    height: 3rem;
+    background:#0082A8 ;
+    margin-top: 1.5rem;
+}
+.white_text{
+    font-weight: bold;
+    display: flex;
+    height: inherit;
+    font-size: 1.2rem;
+    color: white;
+    
+    justify-content: center;
+    align-items: center;
+}
+.grey_container{
+    background: #D9D9D9;
+    margin: 0 auto;
+    max-width: 40.1875rem;
+    height: 3rem;
+}
+.black_text{
+    font-weight: bold;
+    display: flex;
+    height: inherit;
+    font-size: 1.1rem;
+    margin-left:1rem ;
+    align-items: center;
+}
+.security_container{
+    margin: 0 auto;
+    max-width: 40.1875rem;
+    height: 10rem;
+    position: relative;
+}
+.security_para{
+    margin-left: 1rem;
+}
+.footer_copyright{
+    font-weight:500 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+footer{
+    background: #F4F4F6;
+    margin: 0 auto;
+    max-width: 40.1875rem;
+    height: 3rem;
+    
+  
+}
+@media screen and (max-width:550px){
+    img{
+        display: none;
+    }
+.header{
+    background-image: url('logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+}
